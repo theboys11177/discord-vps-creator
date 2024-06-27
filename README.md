@@ -17,6 +17,7 @@ Work in progress (most likely will never happen without you guys)
 - Nodeable support/Shards
 - Alpine Linux Support (it exists but never works)
 - Systemctl Support
+- Spec Limiter
 
 The creation of vps(s)
 - Go in any channel
