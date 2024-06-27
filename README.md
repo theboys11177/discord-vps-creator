@@ -20,10 +20,7 @@ Work in progress (most likely will never happen without you guys)
 The creation of vps(s)
 - Go in any channel
 - type /deploy-ubuntu or /deploy-debian (based on what os) and wait as it deploys instant. the bot will dm you with the command to ssh
-- Open your cmd and type in the ssh command
-
-Video:
-https://cdn.discordapp.com/attachments/1255562945740537966/1255888795874623559/Screencast_from_2024-06-27_17-09-10.webm?ex=667ec516&is=667d7396&hm=1cd6dfd9bf93a7afc6dfe8f7f5a4e113425836f61984b6acde5a809b81029de0&
+- Open your cmd and type in the ssh command.
 
 Req:
 - Your bot host must be linux and has docker installed, We recommand ubuntu or debian or alpine as the OS.
