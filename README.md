@@ -16,6 +16,7 @@ Work in progress (most likely will never happen without you guys)
 - Start/Stop of VPS(s)
 - Nodeable support/Shards
 - Alpine Linux Support (it exists but never works)
+- Systemctl Support
 
 The creation of vps(s)
 - Go in any channel
