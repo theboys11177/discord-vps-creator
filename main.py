@@ -1,6 +1,3 @@
-# Setup for packages:
-# pip install docker discord
-
 import discord
 from discord.ext import commands, tasks
 import docker
@@ -8,8 +5,10 @@ import time
 import re
 import os
 import concurrent.futures
+from dotenv import load_dotenv
+load_dotenv()
 
-TOKEN = '' # input the stupid token here.
+TOKEN = os.getenv('TOKEN')
 
 # Spec limits (Default is 4GB RAM, 2core, 10GB storage)
 RAM_LIMIT = "4g"
@@ -375,4 +374,4 @@ async def ressh_server(interaction: discord.Interaction, ssh_command_or_name: st
     if not server_found:
         await interaction.followup.send(embed=discord.Embed(description="Server not found. Please check your input.", color=0xff0000))
       
-bot.run(TOKEN)
+bot.run(os.getenv('TOKEN'))
