@@ -14,10 +14,15 @@
 - Supports Debian 12 and Ubuntu 22.04 (at the moment)
 - A customizeable install script and docker image that you can change easily
 - Uses slash commands to enhance the user expierence
+- Start/stop/restart of VPS(s)
+- Spec Limiter
 
 **Features in Progress**
-- Start/Stop of VPS(s)
-=======
+- Systemctl support (+++)
+- Alpine Linux Support
+- Node support/shards
+- A Plan system
+
 Features
 - Quick and easy deployment
 - SSH (Using tmate. or using serveo.net if editing the script to use `ssh -R $HOSTNAME:22:localhost:22 serveo.net` instead of tmate -F. however tmate has more uptime)
