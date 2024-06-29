@@ -1,4 +1,10 @@
 # Discord Docker VPS Bot
+
+> [!IMPORTANT]
+>
+> You need a Discord bot token from [Discord Developer Portal](https://discord.dev). Create a application there.
+
+
 The official discord bot which creates docker vps(s) on is-a.space
 
 Support Server: https://discord.gg/ctpG8apzC3
