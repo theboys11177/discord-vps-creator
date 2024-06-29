@@ -17,6 +17,18 @@
 
 **Features in Progress**
 - Start/Stop of VPS(s)
+=======
+Features
+- Quick and easy deployment
+- SSH (Using tmate. or using serveo.net if editing the script to use `ssh -R $HOSTNAME:22:localhost:22 serveo.net` instead of tmate -F. however tmate has more uptime)
+- Uses docker (so you could use this on anything, Even your shitty ahh computer)
+- Has creation and removeal and listing of servers
+- Supports Debian 12 and Ubuntu 22.04
+- A customizeable install script and docker image.
+- Uses slash commands
+- Start/stop of vps(s)
+
+Work in progress (most likely will never happen without you guys)
 - Nodeable support/Shards
 - Alpine Linux Support (it exists but never works)
 - Systemctl Support
