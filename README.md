@@ -11,6 +11,7 @@ Features
 - Supports Debian 12 and Ubuntu 22.04
 - A customizeable install script and docker image.
 - Uses slash commands
+- Start/stop of vps(s)
 
 Work in progress (most likely will never happen without you guys)
 - Nodeable support/Shards
