@@ -13,7 +13,6 @@ Features
 - Uses slash commands
 
 Work in progress (most likely will never happen without you guys)
-- Start/Stop of VPS(s)
 - Nodeable support/Shards
 - Alpine Linux Support (it exists but never works)
 - Systemctl Support
