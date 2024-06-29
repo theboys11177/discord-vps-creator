@@ -23,6 +23,7 @@
 - Node support/shards
 - A Plan system
 - A renew system (Disableable and enableable)
+- A expire system
 
 **How to create a VPS using the bot?**
 - Go in any channel that has slash command permissions (if you're not owner. If you're owner / administrator you can run this in any channel)
@@ -37,8 +38,8 @@
 
 **How to use**:
 - Download the latest `.py` file from our [Latest Releases](https://github.com/Is-a-space/discord-vps-creator/releases/)
-- Edit main.py file and look for the TOKEN line and give it your bot token, You get it from [here](<discord.dev>)
-- Run the file by using `python3 v3.py`
+- Edit .env.example and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev).
+- Rename the file from `.env.example` to `.env`
+- Run the file by using `python3 main.py` or `python main.py` or `py main.py`
 
----
 If you want to see the bot in action or you are too lazy to deploy it yourself, you can invite our VPS bot [here](https://discord.com/oauth2/authorize?client_id=1249856618468737104&permissions=8&integration_type=0&scope=bot)
