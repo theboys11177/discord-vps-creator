@@ -33,4 +33,4 @@ How to use:
 - Go edit the main.py file and look for the TOKEN line and give it your bot token, You get it from [here](<discord.dev>)
 - Run the file
 
-Too lazy to host your own bot. Invite ours using the invite link https://discord.com/oauth2/authorize?client_id=1249856618468737104&permissions=8&integration_type=0&scope=bot
+Too lazy to host your own bot or want to test it out? Invite ours using this invite link: https://discord.com/oauth2/authorize?client_id=1249856618468737104&permissions=8&integration_type=0&scope=bot
