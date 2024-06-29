@@ -32,12 +32,12 @@ Features
 - A customizeable install script and docker image.
 - Uses slash commands
 - Start/stop of vps(s)
+- Spec Limiter
 
 Work in progress (most likely will never happen without you guys)
 - Nodeable support/Shards
 - Alpine Linux Support (it exists but never works)
 - Systemctl Support
-- Spec Limiter
 
 **How to create a VPS using the bot?**
 - Go in any channel that has slash command permissions (if you're not owner. If you're owner / administrator you can run this in any channel)
