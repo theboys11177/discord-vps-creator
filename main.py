@@ -1,3 +1,23 @@
+import subprocess
+import sys
+
+def install_and_import(package, version):
+    try:
+        __import__(package)
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", f"{package}=={version}"])
+
+packages = {
+    "discord.py": "2.4.0",
+    "docker": "7.1.0",
+    "python-dotenv": "1.0.1",
+    "colorama": "0.4.6"
+}
+
+for package, version in packages.items():
+    install_and_import(package, version)
+
+from colorama import Fore, Style, init
 import discord
 from discord.ext import commands, tasks
 import docker
@@ -7,14 +27,14 @@ import os
 import concurrent.futures
 from dotenv import load_dotenv
 load_dotenv()
+init(autoreset=True)
 
 TOKEN = os.getenv('TOKEN')
+RAM_LIMIT = os.getenv('RAM_LIMIT')
+CORES = os.getenv('CPU_LIMIT')
+STORAGE_LIMIT = os.getenv('STORAGE_LIMIT')
 
-# Spec limits (Default is 4GB RAM, 2core, 10GB storage)
-RAM_LIMIT = "4g"
-CORES = 2
-STORAGE_LIMIT = "10g"
-
+print(f"{Fore.WHITE}{Style.BRIGHT}Specified Specs for VPS Creation: {Style.RESET_ALL}" + str(RAM_LIMIT) + " RAM, " + str(CORES) + " cores, " + str(STORAGE_LIMIT) + " storage")
 
 intents = discord.Intents.all()
 intents.messages = True

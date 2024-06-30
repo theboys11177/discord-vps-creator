@@ -38,7 +38,7 @@
 
 **How to use**:
 - Download the latest `.py` file from our [Latest Releases](https://github.com/Is-a-space/discord-vps-creator/releases/)
-- Edit .env.example and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev).
+- Edit .env.example and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
 - Rename the file from `.env.example` to `.env`
 - Run the file by using `python3 main.py` or `python main.py` or `py main.py`
 
