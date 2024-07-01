@@ -31,10 +31,7 @@ init(autoreset=True)
 
 TOKEN = os.getenv('TOKEN')
 RAM_LIMIT = os.getenv('RAM_LIMIT')
-CORES = os.getenv('CPU_LIMIT')
-STORAGE_LIMIT = os.getenv('STORAGE_LIMIT')
-
-print(f"{Fore.WHITE}{Style.BRIGHT}Specified Specs for VPS Creation: {Style.RESET_ALL}" + str(RAM_LIMIT) + " RAM, " + str(CORES) + " cores, " + str(STORAGE_LIMIT) + " storage")
+# Cores and Storage limit did not work < Katy
 
 intents = discord.Intents.all()
 intents.messages = True
@@ -104,7 +101,7 @@ async def help_command(interaction: discord.Interaction):
     embed = discord.Embed(title="Help", color=0x00ff00)
     embed.add_field(name="/deploy-ubuntu", value="Creates a new server with Ubuntu 22.04", inline=False)
     embed.add_field(name="/deploy-debian", value="Creates a new server with Debian 12", inline=False)
-    embed.add_field(name="/deploy-debian", value="Creates a new server with Arch Linux", inline=False)
+    embed.add_field(name="/deploy-arch", value="Creates a new server with Arch Linux", inline=False)
     embed.add_field(name="/remove <ssh_command/Name>", value="Removes a server", inline=False)
     embed.add_field(name="/restart <ssh_command/Name>", value="Restart a server (Disabled. Broken)", inline=False)
     embed.add_field(name="/start <ssh_command/Name>", value="Start a server (Disabled. Broken)", inline=False)
