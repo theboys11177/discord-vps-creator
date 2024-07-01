@@ -199,7 +199,7 @@ async def create_server_task_debian(interaction: discord.Interaction):
         container.stop()
         container.remove()
 
-async def create_server_task_debian(interaction: discord.Interaction):
+async def create_server_task_arch(interaction: discord.Interaction):
     await interaction.response.send_message(embed=discord.Embed(description="Creating server, This takes a few seconds.\n\nLog:```running pacman -Syu\nrunning pacman -Sy tmate\nrunning tmate -F```", color=0x00ff00))
     user = str(interaction.user)
     if count_user_servers(user) >= SERVER_LIMIT:
