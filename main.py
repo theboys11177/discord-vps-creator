@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 load_dotenv()
 init(autoreset=True)
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('MTI2ODg3NTcwNzM4NDIwNTMyNA.GiLA3H.ejqRaGSIyZvgBzAqzlpv7tBcbK_44Fq705IkyA')
 RAM_LIMIT = os.getenv('RAM_LIMIT')
 # Cores and Storage limit did not work < Katy
 
