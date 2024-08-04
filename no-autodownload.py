@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 load_dotenv()
 init(autoreset=True)
 
-TOKEN = os.getenv('TOKEN')
-RAM_LIMIT = os.getenv('RAM_LIMIT')
-CORES = os.getenv('CPU_LIMIT')
-STORAGE_LIMIT = os.getenv('STORAGE_LIMIT')
+TOKEN = os.getenv('MTI2OTU3NzIzOTY3MTA3ODk4Mw.G7VjwV.LHccnCgIcltZOiNEBkVstpkZKtdE6z_3o9q0yU')
+RAM_LIMIT = os.getenv('2gb')
+CORES = os.getenv('100%')
+STORAGE_LIMIT = os.getenv('5gb')
 
 print(f"{Fore.WHITE}{Style.BRIGHT}Specified Specs for VPS Creation: {Style.RESET_ALL}" + str(RAM_LIMIT) + " RAM, " + str(CORES) + " cores, " + str(STORAGE_LIMIT) + " storage")
 
@@ -375,4 +375,4 @@ async def ressh_server(interaction: discord.Interaction, ssh_command_or_name: st
     if not server_found:
         await interaction.followup.send(embed=discord.Embed(description="Server not found. Please check your input.", color=0xff0000))
       
-bot.run(os.getenv('TOKEN'))
+bot.run(os.getenv('MTI2OTU3NzIzOTY3MTA3ODk4Mw.G7VjwV.LHccnCgIcltZOiNEBkVstpkZKtdE6z_3o9q0yU'))
