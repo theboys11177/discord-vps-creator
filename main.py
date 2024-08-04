@@ -29,8 +29,8 @@ from dotenv import load_dotenv
 load_dotenv()
 init(autoreset=True)
 
-TOKEN = os.getenv('MTI2ODg3NTcwNzM4NDIwNTMyNA.GiLA3H.ejqRaGSIyZvgBzAqzlpv7tBcbK_44Fq705IkyA')
-RAM_LIMIT = os.getenv('RAM_LIMIT')
+TOKEN = os.getenv('MTI2OTU3NzIzOTY3MTA3ODk4Mw.G7VjwV.LHccnCgIcltZOiNEBkVstpkZKtdE6z_3o9q0yU')
+RAM_LIMIT = os.getenv('2gb')
 # Cores and Storage limit did not work < Katy
 
 intents = discord.Intents.all()
@@ -424,4 +424,4 @@ async def ressh_server(interaction: discord.Interaction, ssh_command_or_name: st
     if not server_found:
         await interaction.followup.send(embed=discord.Embed(description="Server not found. Please check your input.", color=0xff0000))
       
-bot.run(os.getenv('TOKEN'))
+bot.run(os.getenv('MTI2OTU3NzIzOTY3MTA3ODk4Mw.G7VjwV.LHccnCgIcltZOiNEBkVstpkZKtdE6z_3o9q0yU'))
