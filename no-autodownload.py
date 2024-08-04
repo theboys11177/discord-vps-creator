@@ -11,9 +11,9 @@ load_dotenv()
 init(autoreset=True)
 
 TOKEN = os.getenv('MTI2OTU3NzIzOTY3MTA3ODk4Mw.G7VjwV.LHccnCgIcltZOiNEBkVstpkZKtdE6z_3o9q0yU')
-RAM_LIMIT = os.getenv('2gb')
-CORES = os.getenv('100%')
-STORAGE_LIMIT = os.getenv('5gb')
+RAM_LIMIT = os.getenv('2G')
+CORES = os.getenv('1')
+STORAGE_LIMIT = os.getenv('5G')
 
 print(f"{Fore.WHITE}{Style.BRIGHT}Specified Specs for VPS Creation: {Style.RESET_ALL}" + str(RAM_LIMIT) + " RAM, " + str(CORES) + " cores, " + str(STORAGE_LIMIT) + " storage")
 
